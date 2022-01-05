@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <center>
+        <h1> QUIZ </h1>
+    </center>
+    <form id="quiz" name="quiz">
+
+        <p>Q1.Cristiano ronaldo belongs to which nation </p>
+        <input type="radio"  name="question1" value="Portugal">Portugal<br>
+        <input type="radio"  name="question1" value="Argentina">Argentina<br>
+        <input type="radio"  name="question1" value="Brazil">Brazil<br>
+
+
+        <p>Q2.Cristiano ronaldo plays for which club in 2022 </p>
+        <input type="radio" name="question2" value="Real Madrid">Real madrid<br>
+        <input type="radio" name="question2" value="Manchester united">Manchester united<br>
+        <input type="radio" name="question2" value="Juventus">Juventus<br>
+
+        <p>Q3. Who won the COPA AMERICA cup in 2021 </p>
+        <input type="radio" name="question3" value="Lionel Messi">Lionel Messi<br>
+        <input type="radio" name="question3" value="Cristiano Ronaldo">Cristiano Ronaldo<br>
+        <input type="radio" name="question3" value="Neymar.JR">Neymar.JR<br>
+
+
+        <p>Q4.Who is the coach of Manchester City </p>
+        <input type="radio" name="question4" value="Pep Guardiola">Pep Guardiola<br>
+        <input type="radio" name="question4" value="Ole">Ole<br>
+        <input type="radio" name="question4" value="Xavi">Xavi<br>
+
+        <p>Q5.Mid Fielder Zinedine Zidane belongs to which nation </p> 
+        <input type="radio" name="question5" value="Brazil">Brazil<br>
+        <input type="radio" name="question5" value="France">France<br>
+        <input type="radio" name="question5" value="Poland">Poland<br><br>
+
+       <center> 
+        <input id = "button" type = "button" value = " SUBMIT " onclick = "check();">
+       </center>
+
+    </form>
+    <div id = "after_submit">
+        <p id = "number_correct"></p>
+        <p id = "message"></p>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html> 
